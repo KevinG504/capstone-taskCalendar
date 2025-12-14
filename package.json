@@ -1,0 +1,20 @@
+{
+  "name": "task-calendar-app",
+  "version": "1.0.0",
+  "description": "A simple task management app with calendar features",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node tests/db-test.js"
+  },
+  "keywords": ["task", "calendar", "rest-api"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
